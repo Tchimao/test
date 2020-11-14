@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		         
+		<title>导航菜单栏</title>
+		<style type="text/css">
+			body{background-size: 50%; 
+			     padding: 0px;margin: 0px;
+				text-align: center;    }
+			.top{
+				font-size: 20px;
+			    position: fixed; 
+				position: relative;
+			    margin-top: 0px;
+			    } 
+	
+			 ul {
+			 display: inline-block; margin:0px;padding:0px;
+			 }
+			 ul li{
+			 height: 30px;width:80px;list-style:none; float: left;
+			 display: inline;font: 0.9em Arial, Helvetica, sans-serifss;
+			 }
+			 ul li a{
+			 color:#FFF;width: 80px;margin:0px;/* padding: 0px 0px 0px 0px; */           
+			 text-decoration: none;display: block;background: #5555ff;
+			 line-height: 40px;border-right: 0px solid #aa00ff;border-bottom: 0px solid #55aa7f;
+			 }
+			 ul li ul li{
+			 height:25px;width:80px;
+			 }
+		     ul li ul li a{
+			 background: #666;line-height: 24px;
+			 }
+			 ul li a:hover{
+			 background: #55557f;border-bottom: 0px dashed #FF0000;
+			 }
+			 ul li ul {
+			 visibility: hidden;
+			 }
+			 ul li:hover ul {
+			 visibility: visible;
+			 }
+			 ul li ul li a:hover {
+			 background: #55557f;
+			 }
+			 img{
+			 width: 70px;height: 70px;border-radius: 50%;
+			 }
+		</style>
+		
+	</head>
+	<body background="照片2.jpg" >
+	<div  class="top"  >
+	 <ul ><li ><a href="#">首页</a></li>
+    	<li><a href="#">体育</a>
+   	    <ul>
+			<li><a href="#">NBA</a></li>
+			<li><a href="#">CBA</a></li>
+			<li><a href="#">英超</a></li>
+			<li><a href="#">中超</a></li>
+    	</ul>
+		</li>
+		<li><a href="#">生活</a>
+		<ul>
+			<li><a href="#">美食</a></li>
+			<li><a href="#">房产</a></li>
+			<li><a href="#">旅游</a></li>
+			<li><a href="#">母婴</a></li>
+		</ul>
+		</li>
+		<li><a href="#">经济</a>
+		<ul>
+			<li><a href="#">理财</a></li>
+			<li><a href="#">宏观</a></li>
+		</ul>
+		</li>
+		<li><a href="#">休闲</a>
+		<ul>
+			<li><a href="#">动漫</a></li>
+			<li><a href="#">游戏</a></li>
+			<li><a href="#">电视剧</a></li>
+		</ul>
+		</li>
+		<li><a href="#">新闻</a>
+		<ul>
+		<li><a href="#">军事</a></li>
+		<li><a href="#">政治</a></li>
+		<li><a href="#">教育</a></li>
+		</ul>
+		</li>
+   </ul>
+
+	</div>
+	</body>
+</html>
